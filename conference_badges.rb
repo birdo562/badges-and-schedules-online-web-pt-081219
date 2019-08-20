@@ -13,5 +13,7 @@ end
 
 def printer(speakers)
  puts batch_badge_creator(speakers).map{|attendees|} 
+ 
  binding.pry
+ 
  end
