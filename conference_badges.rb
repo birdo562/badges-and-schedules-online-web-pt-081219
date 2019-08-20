@@ -13,6 +13,5 @@ end
 
 def printer(speakers)
  puts batch_badge_creator(speakers){|attendees|}
- binding.pry
  puts assign_rooms(attendees)
  end
