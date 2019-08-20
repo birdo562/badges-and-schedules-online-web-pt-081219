@@ -12,6 +12,6 @@ def assign_rooms(guests)
 end
 
 def printer(attendees)
- puts batch_badge_creator
+ puts batch_badge_creator(guests)
  end
 binding.pry
