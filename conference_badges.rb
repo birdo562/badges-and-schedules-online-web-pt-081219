@@ -12,7 +12,7 @@ def assign_rooms(guests)
 end
 
 def printer(speakers)
- puts batch_badge_creator(speakers).map{|attendees|} 
+ puts batch_badge_creator(speakers).map{|attendees| assign_rooms(attendees)} 
  
  binding.pry
  
