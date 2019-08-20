@@ -1,4 +1,4 @@
-require 'pry'
+
 def badge_maker(name)
   return "Hello, my name is #{name}."
 end
@@ -12,6 +12,5 @@ def assign_rooms(guests)
 end
 
 def printer(speakers)
- puts batch_badge_creator(speakers){|guest| puts guest}
+ puts batch_badge_creator(speakers){|guest| puts assign_rooms(guest)}
  end
-binding.pry
