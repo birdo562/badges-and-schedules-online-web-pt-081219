@@ -11,7 +11,7 @@ def assign_rooms(guests)
   guests.map.with_index {|name, room| p "Hello, #{name}! You'll be assigned to room #{room+1}!"}
 end
 
-def printer(attendees)
- puts batch_badge_creator(guests)
+def printer(speakers)
+ puts batch_badge_creator(speakers){|guest| puts guest}
  end
 binding.pry
