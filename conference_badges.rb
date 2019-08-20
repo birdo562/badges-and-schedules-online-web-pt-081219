@@ -12,5 +12,5 @@ def assign_rooms(guests)
 end
 
 def printer(speakers)
- puts batch_badge_creator(speakers){|guest| puts assign_rooms(guest)}
+ puts batch_badge_creator(attendees).map{|attendees|}
  end
